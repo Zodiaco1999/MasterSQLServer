@@ -11,6 +11,8 @@
           <Authentication>Windows Authentication</Authentication>
           <InitialDB>Marketplace</InitialDB>
           <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName />
@@ -25,11 +27,41 @@
           <AssociatedConnUserName />
           <FullPath>Marketplace.sql</FullPath>
         </FileNode>
+        <FileNode Name="Section 10.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\mssqllocaldb:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\mssqllocaldb</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Section 10.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Section 14.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\mssqllocaldb:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\mssqllocaldb</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Section 14.sql</FullPath>
+        </FileNode>
         <FileNode Name="Section 6.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\mssqllocaldb:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\mssqllocaldb</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Section 6.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Section 7.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\mssqllocaldb:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\mssqllocaldb</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Section 7.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Section 8.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\mssqllocaldb:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\mssqllocaldb</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Section 8.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Section 9.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\mssqllocaldb:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\mssqllocaldb</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Section 9.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
