@@ -17,6 +17,21 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName />
         </ConnectionNode>
+        <ConnectionNode Name="INTER-PF3G6L26\SQLEXPRESS:INTERRAPIDISIMO\brayansbaezm">
+          <Created>2024-11-28T16:36:02.7237349-05:00</Created>
+          <Type>SQL</Type>
+          <Server>INTER-PF3G6L26\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>Marketplace</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
@@ -38,6 +53,12 @@
           <AssociatedConnSrvName>(localdb)\mssqllocaldb</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Section 14.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Section 18.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:INTER-PF3G6L26\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>INTER-PF3G6L26\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Section 18.sql</FullPath>
         </FileNode>
         <FileNode Name="Section 6.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\mssqllocaldb:True</AssociatedConnectionMoniker>

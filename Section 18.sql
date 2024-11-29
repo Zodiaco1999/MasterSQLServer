@@ -1,0 +1,1 @@
+SELECT * FROM product_texts pt WHERE CONTAINS(pt.LongDescription, '"tecno*"')              
